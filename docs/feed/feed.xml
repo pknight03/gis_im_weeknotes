@@ -4,7 +4,7 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://example.com/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/gis_im_weeknotes/"/>
-	<updated>2024-09-30T00:00:00Z</updated>
+	<updated>2024-09-26T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
@@ -12,53 +12,41 @@
 	</author>
 	
 	<entry>
-		<title>Week 39</title>
-		<link href="https://example.com/gis_im_weeknotes/blog/2024-10-03/"/>
-		<updated>2024-09-30T00:00:00Z</updated>
-		<id>https://example.com/gis_im_weeknotes/blog/2024-10-03/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Nigeria IM, drones case studies,</title>
+		<title>Nigeria IM, drones case studies, conversations</title>
 		<link href="https://example.com/gis_im_weeknotes/blog/2024-09-26/"/>
 		<updated>2024-09-26T00:00:00Z</updated>
 		<id>https://example.com/gis_im_weeknotes/blog/2024-09-26/</id>
-		<content type="html">&lt;ul&gt;
-&lt;li&gt;Setting up this weeknotes minisite!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;nigerian-red-cross-and-information-management&quot; tabindex=&quot;-1&quot;&gt;Nigerian Red Cross &amp;amp; information management &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;As part of our ongoing programme of support and capacity building around information management with Nigerian Red Cross, last week we continued discussions around holding a Humanitarian Information Analysis Course training in Abuja early in 2025.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;what is HIAC&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Paul talking to colleagues at Nigerian RC about options for the IM programme&#39;s funding&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+		<content type="html">&lt;p&gt;Having started writing up team weeknotes last week, on this week&#39;s agenda was
+figuring out a good way to share them. I settled on using &lt;a href=&quot;https://11ty.dev&quot;&gt;11ty&lt;/a&gt; to build the site and GitHub pages for sharing.&lt;/p&gt;
+&lt;h2 id=&quot;planning-humanitarian-information-analysis-training&quot; tabindex=&quot;-1&quot;&gt;Planning Humanitarian Information Analysis training &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As part of our ongoing programme of support and capacity building around
+information management with Nigerian Red Cross, last week we made progress
+on plans to hold a Humanitarian Information Analysis Course training in Abuja early in 2025.&lt;/p&gt;
+&lt;p&gt;HIAC is designed to help people &amp;quot;make sense of available information in
+humanitarian emergencies&amp;quot;, providing a structural framework to gather and
+interpret primary and secondary data. The training helps people make sense of the large variety of information sources they will encounter responding to emergencies, triangulate between data sources to improve accuracy, and identify missing data.&lt;/p&gt;
+&lt;p&gt;Some more info on HIAC is in IFRC&#39;s &lt;a href=&quot;https://surgelearning.ifrc.org/resources/catalog-emergency-trainings&quot;&gt;Catalogue of Emergency Trainings&lt;/a&gt; (PDF).&lt;/p&gt;
+&lt;p&gt;We also had some discussions on 2025 planning with colleagues at Nigerian Red
+Cross about some options for the work they&#39;re doing to &lt;a href=&quot;https://medium.com/digital-and-innovation-at-british-red-cross/branch-level-experiences-in-growing-information-management-at-nigerian-red-cross-56f587abddf2&quot;&gt;develop NRC&#39;s IM
+capacity&lt;/a&gt;. We&#39;ll share more when the plans are more concrete.&lt;/p&gt;
 &lt;h2 id=&quot;drones-case-studies-website&quot; tabindex=&quot;-1&quot;&gt;Drones case studies website &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Worked on a minisite to share case stuies of drone use in the Movement, taking advantage of 11ty&#39;s ability to create pages from structured data. An initial test worked well, so we&#39;ll now focus on cleaning up the styling and building out the structure data for the case studies to draw on.&lt;/li&gt;
-&lt;li&gt;For IFRC Drones working group&lt;/li&gt;
-&lt;li&gt;Picking some of the more detailed examples available in Aid From the Air&lt;/li&gt;
-&lt;li&gt;Hope that the case studies can provide a structure for documenting future activities in a way that&#39;s easy to share with others to learn from&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Some of our team are supporting the &lt;a href=&quot;https://drones.preparecenter.org/&quot;&gt;IFRC Drones Working Group&lt;/a&gt; to develop a
+case study resource, where people can look up the details of how drones are
+being used in the Red Cross Movement. The work is complementary to American Red Cross&#39;s 2020 report &lt;a href=&quot;https://americanredcross.github.io/rcrc-drones/&quot;&gt;Aid From The Air: An overview of drone use in the RCRC global network&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&#39;ve already done some work identifying possible case studies (researching which references from the report have enough detail to be useful as standalone case studies). This week, we worked on a minisite, also based on 11ty - taking advantage of 11ty&#39;s ability to &lt;a href=&quot;https://florian.ec/blog/eleventy-data-pages/&quot;&gt;create pages from structured data&lt;/a&gt;. An initial test worked well, so we&#39;ll now focus on cleaning up the styling and building out the structure data for the case studies to draw on.&lt;/p&gt;
+&lt;p&gt;Hopefully the case studies can provide a structure for documenting future activities in a way that&#39;s easy to share with others/learn from.&lt;/p&gt;
 &lt;h2 id=&quot;conversations-with-colleagues&quot; tabindex=&quot;-1&quot;&gt;Conversations with colleagues &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In our &lt;a href=&quot;https://medium.com/digital-and-innovation-at-british-red-cross/looking-back-on-150-gis-im-hours-8ef07589fba1&quot;&gt;drop-in session&lt;/a&gt; this week, we discussed:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Talked to colleagues in our Insight and Crisis Response teams about options for updating a layer on ArcGIS Online using Python scripts&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;We had a chat to people from the Innovation team about mapping options for possible work around helping support people affected during floods&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Provided feedback on a job description that overlaps with some of our work&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Molnix api tool finishing up&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Making maps from ArcGIS Online data in Excel&lt;/li&gt;
+&lt;li&gt;Using PowerQuery to consolidate data from multiple Excel documents&lt;/li&gt;
+&lt;li&gt;A broad look at creating a single source of truth for information in emergencies. We spoke a bit about the IFRC&#39;s approach and the recent use of the Data Entry &amp;amp; Exploration Platform (&lt;a href=&quot;https://thedeep.io/&quot;&gt;DEEP&lt;/a&gt;) in the response to Hurricane Beryl in the Caribbean.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;This week we had useful conversations with colleagues in our Insight and Crisis Response teams about options for updating a layer on ArcGIS Online using Python scripts. It&#39;s something our team has been working with for a while and opens up a lot of options for moving beyond manual updates, which limit the number and frequency of updates you can manage.&lt;/p&gt;
+&lt;p&gt;We also had a chat to people from the Innovation team about mapping options for
+possible work around supporting people affected by floods, and provided
+feedback on a job description for another team that overlaps with some of our
+work.&lt;/p&gt;
 </content>
 	</entry>
 	
