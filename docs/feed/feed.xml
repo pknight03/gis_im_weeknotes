@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+	<title>BRC GIS &amp; IM</title>
+	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
+	<link href="https://example.com/gis_im_weeknotes/feed/feed.xml" rel="self"/>
+	<link href="https://example.com/gis_im_weeknotes/"/>
+	<updated>2024-09-30T00:00:00Z</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>BRC GIS &amp; IM</name>
+		<email></email>
+	</author>
+	
+	<entry>
+		<title>Week 39</title>
+		<link href="https://example.com/gis_im_weeknotes/blog/2024-10-03/"/>
+		<updated>2024-09-30T00:00:00Z</updated>
+		<id>https://example.com/gis_im_weeknotes/blog/2024-10-03/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Nigeria IM, drones case studies,</title>
+		<link href="https://example.com/gis_im_weeknotes/blog/2024-09-26/"/>
+		<updated>2024-09-26T00:00:00Z</updated>
+		<id>https://example.com/gis_im_weeknotes/blog/2024-09-26/</id>
+		<content type="html">&lt;ul&gt;
+&lt;li&gt;Setting up this weeknotes minisite!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;nigerian-red-cross-and-information-management&quot; tabindex=&quot;-1&quot;&gt;Nigerian Red Cross &amp;amp; information management &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As part of our ongoing programme of support and capacity building around information management with Nigerian Red Cross, last week we continued discussions around holding a Humanitarian Information Analysis Course training in Abuja early in 2025.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;what is HIAC&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Paul talking to colleagues at Nigerian RC about options for the IM programme&#39;s funding&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;drones-case-studies-website&quot; tabindex=&quot;-1&quot;&gt;Drones case studies website &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Worked on a minisite to share case stuies of drone use in the Movement, taking advantage of 11ty&#39;s ability to create pages from structured data. An initial test worked well, so we&#39;ll now focus on cleaning up the styling and building out the structure data for the case studies to draw on.&lt;/li&gt;
+&lt;li&gt;For IFRC Drones working group&lt;/li&gt;
+&lt;li&gt;Picking some of the more detailed examples available in Aid From the Air&lt;/li&gt;
+&lt;li&gt;Hope that the case studies can provide a structure for documenting future activities in a way that&#39;s easy to share with others to learn from&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;conversations-with-colleagues&quot; tabindex=&quot;-1&quot;&gt;Conversations with colleagues &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Talked to colleagues in our Insight and Crisis Response teams about options for updating a layer on ArcGIS Online using Python scripts&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We had a chat to people from the Innovation team about mapping options for possible work around helping support people affected during floods&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Provided feedback on a job description that overlaps with some of our work&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Molnix api tool finishing up&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Office day, training plans, drop-in debriefs</title>
+		<link href="https://example.com/gis_im_weeknotes/blog/2024-09-19/"/>
+		<updated>2024-09-19T00:00:00Z</updated>
+		<id>https://example.com/gis_im_weeknotes/blog/2024-09-19/</id>
+		<content type="html">&lt;p&gt;We started this week with a team day in the office. In the morning, we were joined by a
+colleague from the IFRC GIS team who gave us an update on what he&#39;s been working on,
+including local unit mapping.&lt;/p&gt;
+&lt;p&gt;In the afternoon, we did some team planning, sketching out what we&#39;ve committed to up
+until Christmas. This included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Runnning an online GIS training for colleagues in the MENA, with German Red Cross, Netherlands Red Cross, IFRC and HeiGIT&lt;/li&gt;
+&lt;li&gt;Running an online SIMS Coordinator training with American Red Cross&lt;/li&gt;
+&lt;li&gt;Arranging a Humanitarian Information Analysis training in Abuja with Nigeria Red Cross&lt;/li&gt;
+&lt;li&gt;Joining a simulation exercise run by BRC Emergency Response teams in Scotland&lt;/li&gt;
+&lt;li&gt;Testing features in ArcGIS Online that we don&#39;t currently use, like Hub Premium and ArcGIS Web Tools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some of the team went to the &lt;a href=&quot;https://thegeomob.com/post/sept-18th-2024-geomoblon-details&quot;&gt;Geomob&lt;/a&gt;
+event in London, where Pete Masters was presenting about Humanitarian OpenStreetMap Team&#39;s work
+mapping slums and other speakers celebrated OSM&#39;s 20-year anniversary.&lt;/p&gt;
+&lt;p&gt;Behind the scenes, we renewed BRC&#39;s subscription to ArcGIS Online and updated the single-sign
+on settings that allow BRC staff to use AGOL through Microsoft&#39;s MyApps service without needing
+a separate ESRI login.&lt;/p&gt;
+</content>
+	</entry>
+</feed>

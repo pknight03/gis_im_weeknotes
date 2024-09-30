@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>https://example.com/gis_im_weeknotes/blog/2024-09-19/</loc>
+		<lastmod>2024-09-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/gis_im_weeknotes/blog/2024-09-26/</loc>
+		<lastmod>2024-09-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/gis_im_weeknotes/blog/2024-10-03/</loc>
+		<lastmod>2024-09-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/gis_im_weeknotes/</loc>
+		<lastmod>2024-09-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/gis_im_weeknotes/tags/</loc>
+		<lastmod>2024-09-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/gis_im_weeknotes/blog/</loc>
+		<lastmod>2024-09-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/gis_im_weeknotes/about/</loc>
+		<lastmod>2024-09-30</lastmod>
+	</url>
+</urlset>
