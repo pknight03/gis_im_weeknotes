@@ -1,0 +1,22 @@
+{
+	"version": "https://jsonfeed.org/version/1.1",
+	"title": "BRC GIS &amp; IM",
+	"language": "en",
+	"home_page_url": "https://example.com/eleventy-base-blog/",
+	"feed_url": "https://example.com/eleventy-base-blog/feed/feed.json",
+	"description": "Weeknotes from BRC GIS &amp; IM team",
+	"author": {
+		"name": "BRC GIS &amp; IM",
+		"url": "https://example.com/about-me/"
+	},
+	"items": [
+		{
+			"id": "https://example.com/eleventy-base-blog/blog/2024-09-19/",
+			"url": "https://example.com/eleventy-base-blog/blog/2024-09-19/",
+			"title": "Office day, training plans, drop-in debriefs",
+			"content_html": "<p>We started this week with a team day in the office. In the morning, we were joined by a\ncolleague from the IFRC GIS team who gave us an update on what he's been working on,\nincluding local unit mapping.</p>\n<p>In the afternoon, we did some team planning, sketching out what we've committed to up\nuntil Christmas. This included:</p>\n<ul>\n<li>Runnning an online GIS training for colleagues in the MENA, with German Red Cross, Netherlands Red Cross, IFRC and HeiGIT</li>\n<li>Running an online SIMS Coordinator training with American Red Cross</li>\n<li>Arranging a Humanitarian Information Analysis training in Abuja with Nigeria Red Cross</li>\n<li>Joining a simulation exercise run by BRC Emergency Response teams in Scotland</li>\n<li>Testing features in ArcGIS Online that we don't currently use, like Hub Premium and ArcGIS Web Tools</li>\n</ul>\n<p>Some of the team went to the <a href=\"https://thegeomob.com/post/sept-18th-2024-geomoblon-details\">Geomob</a>\nevent in London, where Pete Masters was presenting about Humanitarian OpenStreetMap Team's work\nmapping slums and other speakers celebrated OSM's 20-year anniversary.</p>\n<p>Behind the scenes, we renewed BRC's subscription to ArcGIS Online and updated the single-sign\non settings that allow BRC staff to use AGOL through Microsoft's MyApps service without needing\na separate ESRI login.</p>\n",
+			"date_published": "2024-09-19T00:00:00Z"
+		}
+		
+	]
+}
