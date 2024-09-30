@@ -1,11 +1,11 @@
 module.exports = {
 	title: "BRC GIS & IM",
-	url: "https://example.com/",
+	url: "https://britishredcrosssociety.github.io/gis_im_weeknotes/",
 	language: "en",
 	description: "Weeknotes from BRC GIS & IM team",
 	author: {
 		name: "BRC GIS & IM",
-		email: "",
-		url: "https://example.com/about-me/"
+		email: "maps@redcross.org.uk",
+		url: "https://britishredcrosssociety.github.io/gis_im_weeknotes/about"
 	}
 }
