@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+	<title>BRC GIS &amp; IM</title>
+	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
+	<link href="https://example.com/feed/feed.xml" rel="self"/>
+	<link href="https://example.com/"/>
+	<updated>2024-09-19T00:00:00Z</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>BRC GIS &amp; IM</name>
+		<email></email>
+	</author>
+	
+	<entry>
+		<title>Office day, training plans, drop-in debriefs</title>
+		<link href="https://example.com/blog/2024-09-19/"/>
+		<updated>2024-09-19T00:00:00Z</updated>
+		<id>https://example.com/blog/2024-09-19/</id>
+		<content type="html">&lt;p&gt;We started this week with a team day in the office. In the morning, we were joined by a
+colleague from the IFRC GIS team who gave us an update on what he&#39;s been working on,
+including local unit mapping.&lt;/p&gt;
+&lt;p&gt;In the afternoon, we did some team planning, sketching out what we&#39;ve committed to up
+until Christmas. This included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Runnning an online GIS training for colleagues in the MENA, with German Red Cross, Netherlands Red Cross, IFRC and HeiGIT&lt;/li&gt;
+&lt;li&gt;Running an online SIMS Coordinator training with American Red Cross&lt;/li&gt;
+&lt;li&gt;Arranging a Humanitarian Information Analysis training in Abuja with Nigeria Red Cross&lt;/li&gt;
+&lt;li&gt;Joining a simulation exercise run by BRC Emergency Response teams in Scotland&lt;/li&gt;
+&lt;li&gt;Testing features in ArcGIS Online that we don&#39;t currently use, like Hub Premium and ArcGIS Web Tools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some of the team went to the &lt;a href=&quot;https://thegeomob.com/post/sept-18th-2024-geomoblon-details&quot;&gt;Geomob&lt;/a&gt;
+event in London, where Pete Masters was presenting about Humanitarian OpenStreetMap Team&#39;s work
+mapping slums and other speakers celebrated OSM&#39;s 20-year anniversary.&lt;/p&gt;
+&lt;p&gt;Behind the scenes, we renewed BRC&#39;s subscription to ArcGIS Online and updated the single-sign
+on settings that allow BRC staff to use AGOL through Microsoft&#39;s MyApps service without needing
+a separate ESRI login.&lt;/p&gt;
+</content>
+	</entry>
+</feed>
