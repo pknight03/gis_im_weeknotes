@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>BRC GIS &amp; IM</title>
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
-	<link href="https://example.com/eleventy-base-blog/feed/feed.xml" rel="self"/>
-	<link href="https://example.com/eleventy-base-blog/"/>
+	<link href="https://example.com/feed/feed.xml" rel="self"/>
+	<link href="https://example.com/"/>
 	<updated>2024-09-19T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
@@ -13,9 +13,9 @@
 	
 	<entry>
 		<title>Office day, training plans, drop-in debriefs</title>
-		<link href="https://example.com/eleventy-base-blog/blog/2024-09-19/"/>
+		<link href="https://example.com/blog/2024-09-19/"/>
 		<updated>2024-09-19T00:00:00Z</updated>
-		<id>https://example.com/eleventy-base-blog/blog/2024-09-19/</id>
+		<id>https://example.com/blog/2024-09-19/</id>
 		<content type="html">&lt;p&gt;We started this week with a team day in the office. In the morning, we were joined by a
 colleague from the IFRC GIS team who gave us an update on what he&#39;s been working on,
 including local unit mapping.&lt;/p&gt;
