@@ -2,23 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>BRC GIS &amp; IM</title>
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
-	<link href="https://example.com/gis_im_weeknotes/feed/feed.xml" rel="self"/>
-	<link href="https://example.com/gis_im_weeknotes/"/>
+	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
+	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
 	<updated>2024-09-26T00:00:00Z</updated>
-	<id>https://example.com/</id>
+	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
-		<email></email>
+		<email>maps@redcross.org.uk</email>
 	</author>
 	
 	<entry>
 		<title>Nigeria IM, drones case studies, conversations</title>
-		<link href="https://example.com/gis_im_weeknotes/blog/2024-09-26/"/>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-09-26/"/>
 		<updated>2024-09-26T00:00:00Z</updated>
-		<id>https://example.com/gis_im_weeknotes/blog/2024-09-26/</id>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-09-26/</id>
 		<content type="html">&lt;p&gt;Having started writing up team weeknotes last week, on this week&#39;s agenda was
 figuring out a good way to share them. I settled on using &lt;a href=&quot;https://11ty.dev&quot;&gt;11ty&lt;/a&gt; to build the site and GitHub pages for sharing.&lt;/p&gt;
-&lt;h2 id=&quot;planning-humanitarian-information-analysis-training&quot; tabindex=&quot;-1&quot;&gt;Planning Humanitarian Information Analysis training &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;planning-humanitarian-information-analysis-training&quot; tabindex=&quot;-1&quot;&gt;Planning Humanitarian Information Analysis training &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;As part of our ongoing programme of support and capacity building around
 information management with Nigerian Red Cross, last week we made progress
 on plans to hold a Humanitarian Information Analysis Course training in Abuja early in 2025.&lt;/p&gt;
@@ -29,13 +29,13 @@ interpret primary and secondary data. The training helps people make sense of th
 &lt;p&gt;We also had some discussions on 2025 planning with colleagues at Nigerian Red
 Cross about some options for the work they&#39;re doing to &lt;a href=&quot;https://medium.com/digital-and-innovation-at-british-red-cross/branch-level-experiences-in-growing-information-management-at-nigerian-red-cross-56f587abddf2&quot;&gt;develop NRC&#39;s IM
 capacity&lt;/a&gt;. We&#39;ll share more when the plans are more concrete.&lt;/p&gt;
-&lt;h2 id=&quot;drones-case-studies-website&quot; tabindex=&quot;-1&quot;&gt;Drones case studies website &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;drones-case-studies-website&quot; tabindex=&quot;-1&quot;&gt;Drones case studies website &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Some of our team are supporting the &lt;a href=&quot;https://drones.preparecenter.org/&quot;&gt;IFRC Drones Working Group&lt;/a&gt; to develop a
 case study resource, where people can look up the details of how drones are
 being used in the Red Cross Movement. The work is complementary to American Red Cross&#39;s 2020 report &lt;a href=&quot;https://americanredcross.github.io/rcrc-drones/&quot;&gt;Aid From The Air: An overview of drone use in the RCRC global network&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We&#39;ve already done some work identifying possible case studies (researching which references from the report have enough detail to be useful as standalone case studies). This week, we worked on a minisite, also based on 11ty - taking advantage of 11ty&#39;s ability to &lt;a href=&quot;https://florian.ec/blog/eleventy-data-pages/&quot;&gt;create pages from structured data&lt;/a&gt;. An initial test worked well, so we&#39;ll now focus on cleaning up the styling and building out the structure data for the case studies to draw on.&lt;/p&gt;
 &lt;p&gt;Hopefully the case studies can provide a structure for documenting future activities in a way that&#39;s easy to share with others/learn from.&lt;/p&gt;
-&lt;h2 id=&quot;conversations-with-colleagues&quot; tabindex=&quot;-1&quot;&gt;Conversations with colleagues &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;conversations-with-colleagues&quot; tabindex=&quot;-1&quot;&gt;Conversations with colleagues &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-09-26/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;In our &lt;a href=&quot;https://medium.com/digital-and-innovation-at-british-red-cross/looking-back-on-150-gis-im-hours-8ef07589fba1&quot;&gt;drop-in session&lt;/a&gt; this week, we discussed:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Making maps from ArcGIS Online data in Excel&lt;/li&gt;
@@ -52,9 +52,9 @@ work.&lt;/p&gt;
 	
 	<entry>
 		<title>Office day, training plans, drop-in debriefs</title>
-		<link href="https://example.com/gis_im_weeknotes/blog/2024-09-19/"/>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-09-19/"/>
 		<updated>2024-09-19T00:00:00Z</updated>
-		<id>https://example.com/gis_im_weeknotes/blog/2024-09-19/</id>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-09-19/</id>
 		<content type="html">&lt;p&gt;We started this week with a team day in the office. In the morning, we were joined by a
 colleague from the IFRC GIS team who gave us an update on what he&#39;s been working on,
 including local unit mapping.&lt;/p&gt;
