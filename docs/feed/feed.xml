@@ -4,12 +4,63 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2024-09-26T00:00:00Z</updated>
+	<updated>2024-10-03T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Missing Maps job, maps in Excel and Sharepoint, drones surge, maps guidance</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-03/"/>
+		<updated>2024-10-03T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-03/</id>
+		<content type="html">&lt;h2 id=&quot;missing-maps-job&quot; tabindex=&quot;-1&quot;&gt;Missing Maps job &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-03/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The job that the team was consulted on the job description for is now live:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://careers.redcross.org.uk/vacancies/10471/workshop-facilitator--missing-maps.html&quot;&gt;Missing Maps Workshop facilitator&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Location: UK flexible&lt;/li&gt;
+&lt;li&gt;Pay: £350-400 day rate&lt;/li&gt;
+&lt;li&gt;Contract type: Self-employed&lt;/li&gt;
+&lt;li&gt;Closing date: 16 October 2024&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;maps-in-excel&quot; tabindex=&quot;-1&quot;&gt;Maps in Excel &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-03/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We looked a bit deeper into the possibilities for using ArcGIS Online maps in Excel and Sharepoint.&lt;/p&gt;
+&lt;p&gt;For Excel, we looked at what&#39;s possible using the ArcGIS Excel plugin as an unlicensed user. We discovered that users without a license assigned can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Only add one public featurelayer at a time from ArcGIS Online to a map in Excel&lt;/li&gt;
+&lt;li&gt;Add one public webmap to a map in Excel, which can contain multiple layers that someone else has made&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If an unlicensed user adds a public webmap, the feature layers from that map are added to the Excel map as individual layers. If the user then adds another featurelayer to the map, the layers from the public webmap are removed.&lt;/p&gt;
+&lt;p&gt;We&#39;ll continue looking into what the capabilities are for licensed vs unlicensed users, as it helps us understand what&#39;s the best way to support people according to their specific needs.&lt;/p&gt;
+&lt;h2 id=&quot;maps-in-sharepoint&quot; tabindex=&quot;-1&quot;&gt;Maps in Sharepoint &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-03/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We looked again at options for creating maps from Sharepoint lists. In particular, for geocoding data from a Sharepoint list using PowerAutomate and feeding that into a map on ArcGIS Online. We&#39;ve prototyped a workflow that takes address data from a sharepoint list and processes it so it will show up in an ArcGIS map component on a Sharepoint site.&lt;/p&gt;
+&lt;p&gt;The basic workflow is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add the address as an address data type in a Sharepoint list&lt;/li&gt;
+&lt;li&gt;This automatically geocodes to a lat/long coordinate pair in the background&lt;/li&gt;
+&lt;li&gt;Use PowerAutomate to split the coordinates into explicit &lt;code&gt;Lat&lt;/code&gt; and &lt;code&gt;Long&lt;/code&gt; columns&lt;/li&gt;
+&lt;li&gt;Use these columns to provide the location for visualisation on the ArcGIS map component for Sharepoint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;drones-surge&quot; tabindex=&quot;-1&quot;&gt;Drones surge &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-03/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We contributed to a IFRC Surge Awareness seminar on the use of drones/UAVs for emergency response. Drone teams are now available to request as part of the IFRC surge catalogue, with teams available to deploy from American and Italian Red Cross. The services currently offered are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Media and comms&lt;/li&gt;
+&lt;li&gt;Situational awareness&lt;/li&gt;
+&lt;li&gt;Mapping&lt;/li&gt;
+&lt;li&gt;Site surveys
+It&#39;s likely that the services offered will expand in the future as more National Societies set up teams capable of offering surge support.
+The presentation (prepared by American Red Cross) covered how the surge mechanism works for drone teams, explained the benefits of using drones for emergency response, and gave a brief overview of how drone mapping works.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The other version of this call, presented by American Red Cross, is available on the &lt;a href=&quot;https://www.youtube.com/watch?v=sFKWu7CRgqk&quot;&gt;IFRC Drones Group YouTube channel&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;maps-guidance-document&quot; tabindex=&quot;-1&quot;&gt;Maps guidance document &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-03/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We started work on a document on the use of maps as a guide to other teams. It will include things to consider for people making or commissioning maps, such as use of suitable colours, our approved datasets for international boundaries, how to show disputed boundaries, etc.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Nigeria IM, drones case studies, conversations</title>
