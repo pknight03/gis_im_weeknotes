@@ -4,12 +4,30 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2024-10-03T00:00:00Z</updated>
+	<updated>2024-10-10T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Sharing spatial data and apps, UK boundaries and generalisation, Canadaian Red Cross presenation, and Security Maps</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-10/"/>
+		<updated>2024-10-10T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-10/</id>
+		<content type="html">&lt;h2 id=&quot;sharing-spatial-data-and-apps-arcgis-hub-premium&quot; tabindex=&quot;-1&quot;&gt;Sharing Spatial Data and Apps: ArcGIS Hub Premium &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-10/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As part of a team goal to enable users to create their own geographic products, we have an internal ArcGIS Hub site that allows users to search, view, download and use geographic data that we hold, and various geo apps.&lt;/p&gt;
+&lt;p&gt;We already have an ArcGIS Hub Basic site, however by upgrading this to Premium it also allows other stakeholders and community members to also join – that may not be part of the Red Cross – which can be useful for emergency response and collaboration.&lt;/p&gt;
+&lt;p&gt;We are going to start to focus on creating a Premium site to be ready for testing.&lt;/p&gt;
+&lt;h2 id=&quot;uk-boundaries-and-data-generalisation&quot; tabindex=&quot;-1&quot;&gt;UK Boundaries and Data Generalisation &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-10/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We started to write a blog detailing the &lt;a href=&quot;https://www.ons.gov.uk/methodology/geography/geographicalproducts/digitalboundaries&quot;&gt;different generalisation levels&lt;/a&gt; of UK boundary datasets provided by the Office for National Statistics (ONS). We get asked questions about the difference between them and which one to use (e.g., for a webmap, geospatial analysis, in PowerBI). This will hopefully be a good resource to send people to help explain and refer back to.&lt;/p&gt;
+&lt;h2 id=&quot;red-cross-red-cresent-geocall-canadian-red-cross-geo-eligibility&quot; tabindex=&quot;-1&quot;&gt;Red Cross Red Cresent GeoCall: Canadian Red Cross Geo-Eligibility &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-10/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The Canadian Red Cross presented how they use GIS within a domestic response, and specifically their “geo-eligibility” tool. Eligible people to receive assistance are those that are within the geographic boundary of an impacted area, such as a wildfire evacuation zone, or flood area. This information is then used to provide financial assistance via e-banking. An example of the recent Jasper wildfire was used.&lt;/p&gt;
+&lt;h2 id=&quot;security-map&quot; tabindex=&quot;-1&quot;&gt;Security Map &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-10/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Our international department have a security unit that look after British Red Cross staff safety and security. We’ve recently started a project with them to create an ArcGIS Experience, where they are able to edit the security situation and level within a country. This information then is changed on a webmap visible by a wider audience. This week we’ve been adding more countries to this tool which will then be user tested.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Missing Maps job, maps in Excel and Sharepoint, drones surge, maps guidance</title>
