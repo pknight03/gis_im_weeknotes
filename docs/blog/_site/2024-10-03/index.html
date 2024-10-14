@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Sharing spatial data and apps, UK boundaries and generalisation, Canadaian Red Cross presentation, and security maps</title>
+		<title>BRC GIS &amp; IM</title>
 		<meta name="description" content="Weeknotes from BRC GIS &amp; IM team">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.xml" type="application/atom+xml" title="BRC GIS &amp; IM">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.json" type="application/json" title="BRC GIS &amp; IM">
@@ -465,30 +465,63 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Sharing spatial data and apps, UK boundaries and generalisation, Canadaian Red Cross presentation, and security maps</h1>
+<h1></h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2024-10-10">10 October 2024</time></li>
+	<li><time datetime="2024-10-03">03 October 2024</time></li>
 </ul>
 
-<h2 id="sharing-spatial-data-and-apps-arcgis-hub-premium" tabindex="-1">Sharing Spatial Data and Apps: ArcGIS Hub Premium <a class="header-anchor" href="#sharing-spatial-data-and-apps-arcgis-hub-premium">#</a></h2>
-<p>As part of a team goal to enable users to create their own geographic products, we have an internal ArcGIS Hub site that allows users to search, view, download and use geographic data that we hold, and various geo apps.</p>
-<p>We already have an ArcGIS Hub Basic site, however by upgrading this to Premium it also allows other stakeholders and community members to also join – that may not be part of the Red Cross – which can be useful for emergency response and collaboration.</p>
-<p>We are going to start to focus on creating a Premium site to be ready for testing.</p>
-<h2 id="uk-boundaries-and-data-generalisation" tabindex="-1">UK Boundaries and Data Generalisation <a class="header-anchor" href="#uk-boundaries-and-data-generalisation">#</a></h2>
-<p>We started to write a blog detailing the <a href="https://www.ons.gov.uk/methodology/geography/geographicalproducts/digitalboundaries">different generalisation levels</a> of UK boundary datasets provided by the Office for National Statistics (ONS). We get asked questions about the difference between them and which one to use (e.g., for a webmap, geospatial analysis, in PowerBI). This will hopefully be a good resource to send people to help explain and refer back to.</p>
-<h2 id="red-cross-red-cresent-geocall-canadian-red-cross-geo-eligibility" tabindex="-1">Red Cross Red Cresent GeoCall: Canadian Red Cross Geo-Eligibility <a class="header-anchor" href="#red-cross-red-cresent-geocall-canadian-red-cross-geo-eligibility">#</a></h2>
-<p>The Canadian Red Cross presented how they use GIS within a domestic response, and specifically their “geo-eligibility” tool. Eligible people to receive assistance are those that are within the geographic boundary of an impacted area, such as a wildfire evacuation zone, or flood area. This information is then used to provide financial assistance via e-banking. An example of the recent Jasper wildfire was used.</p>
-<h2 id="security-map" tabindex="-1">Security Map <a class="header-anchor" href="#security-map">#</a></h2>
-<p>Our international department have a security unit that look after British Red Cross staff safety and security. We’ve recently started a project with them to create an ArcGIS Experience, where they are able to edit the security situation and level within a country. This information then is changed on a webmap visible by a wider audience. This week we’ve been adding more countries to this tool which will then be user tested.</p>
+<h2>Missing Maps job</h2>
+<p>The job that the team was consulted on the job description for is now live:</p>
+<ul>
+<li><a href="https://careers.redcross.org.uk/vacancies/10471/workshop-facilitator--missing-maps.html">Missing Maps Workshop facilitator</a>
+<ul>
+<li>Location: UK flexible</li>
+<li>Pay: £350-400 day rate</li>
+<li>Contract type: Self-employed</li>
+<li>Closing date: 16 October 2024</li>
+</ul>
+</li>
+</ul>
+<h2>Maps in Excel</h2>
+<p>We looked a bit deeper into the possibilities for using ArcGIS Online maps in Excel and Sharepoint.</p>
+<p>For Excel, we looked at what's possible using the ArcGIS Excel plugin as an unlicensed user. We discovered that users without a license assigned can:</p>
+<ul>
+<li>Only add one public featurelayer at a time from ArcGIS Online to a map in Excel</li>
+<li>Add one public webmap to a map in Excel, which can contain multiple layers that someone else has made</li>
+</ul>
+<p>If an unlicensed user adds a public webmap, the feature layers from that map are added to the Excel map as individual layers. If the user then adds another featurelayer to the map, the layers from the public webmap are removed.</p>
+<p>We'll continue looking into what the capabilities are for licensed vs unlicensed users, as it helps us understand what's the best way to support people according to their specific needs.</p>
+<h2>Maps in Sharepoint</h2>
+<p>We looked again at options for creating maps from Sharepoint lists. In particular, for geocoding data from a Sharepoint list using PowerAutomate and feeding that into a map on ArcGIS Online. We've prototyped a workflow that takes address data from a sharepoint list and processes it so it will show up in an ArcGIS map component on a Sharepoint site.</p>
+<p>The basic workflow is:</p>
+<ul>
+<li>Add the address as an address data type in a Sharepoint list</li>
+<li>This automatically geocodes to a lat/long coordinate pair in the background</li>
+<li>Use PowerAutomate to split the coordinates into explicit <code>Lat</code> and <code>Long</code> columns</li>
+<li>Use these columns to provide the location for visualisation on the ArcGIS map component for Sharepoint</li>
+</ul>
+<h2>Drones surge</h2>
+<p>We contributed to a IFRC Surge Awareness seminar on the use of drones/UAVs for emergency response. Drone teams are now available to request as part of the IFRC surge catalogue, with teams available to deploy from American and Italian Red Cross. The services currently offered are:</p>
+<ul>
+<li>Media and comms</li>
+<li>Situational awareness</li>
+<li>Mapping</li>
+<li>Site surveys
+It's likely that the services offered will expand in the future as more National Societies set up teams capable of offering surge support.
+The presentation (prepared by American Red Cross) covered how the surge mechanism works for drone teams, explained the benefits of using drones for emergency response, and gave a brief overview of how drone mapping works.</li>
+</ul>
+<p>The other version of this call, presented by American Red Cross, is available on the <a href="https://www.youtube.com/watch?v=sFKWu7CRgqk">IFRC Drones Group YouTube channel</a>.</p>
+<h2>Maps guidance document</h2>
+<p>We started work on a document on the use of maps as a guide to other teams. It will include things to consider for people making or commissioning maps, such as use of suitable colours, our approved datasets for international boundaries, how to show disputed boundaries, etc.</p>
 
-<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/_site/2024-10-03/"></a></li><li>Next: <a href="/gis_im_weeknotes/blog/_site/2024-10-10/"></a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-10-03/">Missing Maps job, maps in Excel and Sharepoint, drones surge, maps guidance</a></li><li>Next: <a href="/gis_im_weeknotes/blog/2024-10-10/">Sharing spatial data and apps, UK boundaries and generalisation, Canadaian Red Cross presentation, and security maps</a></li>
 </ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/gis_im_weeknotes/blog/2024-10-10/` was built on 2024-10-14T12:02:13.923Z -->
+		<!-- This page `/gis_im_weeknotes/blog/_site/2024-10-03/` was built on 2024-10-14T12:02:13.924Z -->
 	</body>
 </html>

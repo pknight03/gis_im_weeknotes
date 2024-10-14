@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Sharing spatial data and apps, UK boundaries and generalisation, Canadaian Red Cross presentation, and security maps</title>
+		<title>BRC GIS &amp; IM</title>
 		<meta name="description" content="Weeknotes from BRC GIS &amp; IM team">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.xml" type="application/atom+xml" title="BRC GIS &amp; IM">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.json" type="application/json" title="BRC GIS &amp; IM">
@@ -465,30 +465,51 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Sharing spatial data and apps, UK boundaries and generalisation, Canadaian Red Cross presentation, and security maps</h1>
+<h1></h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2024-10-10">10 October 2024</time></li>
+	<li><time datetime="2024-09-26">26 September 2024</time></li>
 </ul>
 
-<h2 id="sharing-spatial-data-and-apps-arcgis-hub-premium" tabindex="-1">Sharing Spatial Data and Apps: ArcGIS Hub Premium <a class="header-anchor" href="#sharing-spatial-data-and-apps-arcgis-hub-premium">#</a></h2>
-<p>As part of a team goal to enable users to create their own geographic products, we have an internal ArcGIS Hub site that allows users to search, view, download and use geographic data that we hold, and various geo apps.</p>
-<p>We already have an ArcGIS Hub Basic site, however by upgrading this to Premium it also allows other stakeholders and community members to also join – that may not be part of the Red Cross – which can be useful for emergency response and collaboration.</p>
-<p>We are going to start to focus on creating a Premium site to be ready for testing.</p>
-<h2 id="uk-boundaries-and-data-generalisation" tabindex="-1">UK Boundaries and Data Generalisation <a class="header-anchor" href="#uk-boundaries-and-data-generalisation">#</a></h2>
-<p>We started to write a blog detailing the <a href="https://www.ons.gov.uk/methodology/geography/geographicalproducts/digitalboundaries">different generalisation levels</a> of UK boundary datasets provided by the Office for National Statistics (ONS). We get asked questions about the difference between them and which one to use (e.g., for a webmap, geospatial analysis, in PowerBI). This will hopefully be a good resource to send people to help explain and refer back to.</p>
-<h2 id="red-cross-red-cresent-geocall-canadian-red-cross-geo-eligibility" tabindex="-1">Red Cross Red Cresent GeoCall: Canadian Red Cross Geo-Eligibility <a class="header-anchor" href="#red-cross-red-cresent-geocall-canadian-red-cross-geo-eligibility">#</a></h2>
-<p>The Canadian Red Cross presented how they use GIS within a domestic response, and specifically their “geo-eligibility” tool. Eligible people to receive assistance are those that are within the geographic boundary of an impacted area, such as a wildfire evacuation zone, or flood area. This information is then used to provide financial assistance via e-banking. An example of the recent Jasper wildfire was used.</p>
-<h2 id="security-map" tabindex="-1">Security Map <a class="header-anchor" href="#security-map">#</a></h2>
-<p>Our international department have a security unit that look after British Red Cross staff safety and security. We’ve recently started a project with them to create an ArcGIS Experience, where they are able to edit the security situation and level within a country. This information then is changed on a webmap visible by a wider audience. This week we’ve been adding more countries to this tool which will then be user tested.</p>
+<p>Having started writing up team weeknotes last week, on this week's agenda was
+figuring out a good way to share them. I settled on using <a href="https://11ty.dev">11ty</a> to build the site and GitHub pages for sharing.</p>
+<h2>Planning Humanitarian Information Analysis training</h2>
+<p>As part of our ongoing programme of support and capacity building around
+information management with Nigerian Red Cross, last week we made progress
+on plans to hold a Humanitarian Information Analysis Course training in Abuja early in 2025.</p>
+<p>HIAC is designed to help people &quot;make sense of available information in
+humanitarian emergencies&quot;, providing a structural framework to gather and
+interpret primary and secondary data. The training helps people make sense of the large variety of information sources they will encounter responding to emergencies, triangulate between data sources to improve accuracy, and identify missing data.</p>
+<p>Some more info on HIAC is in IFRC's <a href="https://surgelearning.ifrc.org/resources/catalog-emergency-trainings">Catalogue of Emergency Trainings</a> (PDF).</p>
+<p>We also had some discussions on 2025 planning with colleagues at Nigerian Red
+Cross about some options for the work they're doing to <a href="https://medium.com/digital-and-innovation-at-british-red-cross/branch-level-experiences-in-growing-information-management-at-nigerian-red-cross-56f587abddf2">develop NRC's IM
+capacity</a>. We'll share more when the plans are more concrete.</p>
+<h2>Drones case studies website</h2>
+<p>Some of our team are supporting the <a href="https://drones.preparecenter.org/">IFRC Drones Working Group</a> to develop a
+case study resource, where people can look up the details of how drones are
+being used in the Red Cross Movement. The work is complementary to American Red Cross's 2020 report <a href="https://americanredcross.github.io/rcrc-drones/">Aid From The Air: An overview of drone use in the RCRC global network</a>.</p>
+<p>We've already done some work identifying possible case studies (researching which references from the report have enough detail to be useful as standalone case studies). This week, we worked on a minisite, also based on 11ty - taking advantage of 11ty's ability to <a href="https://florian.ec/blog/eleventy-data-pages/">create pages from structured data</a>. An initial test worked well, so we'll now focus on cleaning up the styling and building out the structure data for the case studies to draw on.</p>
+<p>Hopefully the case studies can provide a structure for documenting future activities in a way that's easy to share with others/learn from.</p>
+<h2>Conversations with colleagues</h2>
+<p>In our <a href="https://medium.com/digital-and-innovation-at-british-red-cross/looking-back-on-150-gis-im-hours-8ef07589fba1">drop-in session</a> this week, we discussed:</p>
+<ul>
+<li>Making maps from ArcGIS Online data in Excel</li>
+<li>Using PowerQuery to consolidate data from multiple Excel documents</li>
+<li>A broad look at creating a single source of truth for information in emergencies. We spoke a bit about the IFRC's approach and the recent use of the Data Entry &amp; Exploration Platform (<a href="https://thedeep.io/">DEEP</a>) in the response to Hurricane Beryl in the Caribbean.</li>
+</ul>
+<p>This week we had useful conversations with colleagues in our Insight and Crisis Response teams about options for updating a layer on ArcGIS Online using Python scripts. It's something our team has been working with for a while and opens up a lot of options for moving beyond manual updates, which limit the number and frequency of updates you can manage.</p>
+<p>We also had a chat to people from the Innovation team about mapping options for
+possible work around supporting people affected by floods, and provided
+feedback on a job description for another team that overlaps with some of our
+work.</p>
 
-<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/_site/2024-10-03/"></a></li><li>Next: <a href="/gis_im_weeknotes/blog/_site/2024-10-10/"></a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-09-26/">Nigeria IM, drones case studies, conversations</a></li><li>Next: <a href="/gis_im_weeknotes/blog/2024-10-03/">Missing Maps job, maps in Excel and Sharepoint, drones surge, maps guidance</a></li>
 </ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/gis_im_weeknotes/blog/2024-10-10/` was built on 2024-10-14T12:02:13.923Z -->
+		<!-- This page `/gis_im_weeknotes/blog/_site/2024-09-26/` was built on 2024-10-14T12:02:13.924Z -->
 	</body>
 </html>
